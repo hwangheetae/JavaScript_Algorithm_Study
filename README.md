@@ -1,6 +1,7 @@
 # 🐊자코스테-JS 알고리즘 스터디 
 구름톤 트레이닝 풀스택 7회차 2차 스터디 입니다! #  
 
+
 <table>
   <tr>
     <td>진행 기간</td>
@@ -30,15 +31,22 @@
 </table>
 <br/>
 
-**스터디 멤버**
+## 스터디 멤버
 
 <table>
  <tr>
-    <td align="center"><a href="https://github.com/hwangheetae"><img src="https://avatars.githubusercontent.com/hwangheetae" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/hwangheetae"><img src="https://avatars.githubusercontent.com/hwangheetae" width="75px;" alt=""></a></td>
+
+  <td align="center"><a href="https://github.com/jinjuseo"><img src="https://avatars.githubusercontent.com/jinjuseo" width="100px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/ns0h "><img src="https://avatars.githubusercontent.com/ns0h " width="130px;" alt=""></a></td>    <td align="center"><a href="https://github.com/nnevia"><img src="https://avatars.githubusercontent.com/nnevia" width="130px;" alt=""></a></td>    <td align="center"><a href="https://github.com/kzts97"><img src="https://avatars.githubusercontent.com/kzts97" width="130px;" alt=""></a></td>
 
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/hwangheetae"><b>hwangheetae</b></a></td>
+    <td align="center"><a href="https://github.com/hwangheetae"><b>hwangheetae</b></a></td>    
+    <td align="center"><a href="https://github.com/jinjuseo"><b>jinjuseo</b></a></td>    
+    <td align="center"><a href="https://github.com/ns0h "><b>ns0h </b></a></td>  
+    <td align="center"><a href="https://github.com/nnevia"><b>nnevia</b></a></td> 
+    <td align="center"><a href="https://github.com/kzts97"><b>kzts97</b></a></td>
 
   </tr>
 

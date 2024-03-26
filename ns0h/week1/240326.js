@@ -49,12 +49,13 @@ function solution(today, terms, privacies) {
         array = privacies[i].split(" "); // 수집일자, 약관 종류 저장
         m = Number(term[array[1]]); // term에 따라 유효기간 저장
         
+        // 유효기간 계산
         var date = array[0];
         date = date.replace(/\./g, "-");
         date = new Date(date);
         date.setMonth(date.getMonth() + m);
         
-        if (today >= date) {
+        if (today >= date) { // 유효기간이 지났으면
             answer.push(i+1)
         }
     }

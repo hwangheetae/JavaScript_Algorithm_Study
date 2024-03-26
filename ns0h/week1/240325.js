@@ -11,8 +11,8 @@
 function solution(my_string, letter) {
     var answer = '';
     
-    var resultArr = my_string.split(letter);
-    answer = resultArr.join("")
+    var resultArr = my_string.split(letter); // letter 기준으로 문자열 배열화
+    answer = resultArr.join("") // 배열을 다시 문자열화
     return answer;
 }
 

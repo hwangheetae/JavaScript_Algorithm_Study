@@ -31,5 +31,7 @@ console.log(solution([4,4,4,3,3])); // [4,3]
 
 /*
 다른 사람 풀이
-return arr.filter((val,index) => val != arr[index+1]);
+function solution(arr) {
+    return arr.filter((val,index) => val != arr[index+1]);
+}
 */

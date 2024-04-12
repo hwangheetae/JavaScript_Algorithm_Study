@@ -14,9 +14,9 @@ strings의 원소는 길이 1 이상, 100이하인 문자열입니다.
 
 function solution(strings, n) {
     strings.sort((a, b) => {
-        if (a[n] > b[n]) return 1; // b[n]이 앞
+        if (a[n] > b[n]) return 1;  // b[n]이 앞
         else if (a[n] < b[n]) return -1; // a[n]이 앞
-        else { // 같을 때
+        else {                      // 같을 때
             if (a > b) return 1;
             else if (a < b) return -1;
             else return 0;

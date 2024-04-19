@@ -46,3 +46,5 @@ console.log(solution("1231234", 3)); // "3234"
 console.log(solution("4177252841", 4)); // "775841"
 console.log(solution("3879781299", 2)); // "89781299"
 console.log(solution("9998888123", 4)); // "999888"
+
+// stack 힌트 얻어서 풀이함

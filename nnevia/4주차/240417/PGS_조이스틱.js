@@ -1,33 +1,38 @@
-//  1차 구현 (테케 일부 통과)
-//  def stick(init, name):
-//      cnt = 0
-//      for i in range(len(init)):
-//          print(cnt)
-//          if ord(name[i]) > 77:
-//              flag = -1
-//          else:
-//              flag = 1
-//          while init[i] != name[i]:
-//              if flag == -1:
-//                  if init[i] == 'A':
-//                      init[i] = 'Z'
-//                  else:
-//                      init[i] = chr(ord(init[i]) - 1)
-//              else:
-//                  init[i] = chr(ord(init[i]) + 1)
-//              cnt += 1
-        
-//          if init == name:
-//              return cnt
-        
-//          cnt += 1
-        
-//      return cnt
-//  def solution(name):
-//      right, left = ['A']*len(name), ['A']*len(name)
+// function stick(init, name) {
+//     let cnt = 0;
+//     for (let i = 0; i < init.length; i++) {
+//         if (name.charCodeAt(i) > 77) {
+//             var flag = -1;
+//         } else {
+//             var flag = 1;
+//         }
+//         while (init[i] !== name[i]) {
+//             if (flag === -1) {
+//                 if (init[i] === 'A') {
+//                     init[i] = 'Z';
+//                 } else {
+//                     init[i] = String.fromCharCode(init[i].charCodeAt(0) - 1);
+//                 }
+//             } else {
+//                 init[i] = String.fromCharCode(init[i].charCodeAt(0) + 1);
+//             }
+//             cnt++;
+//         }
+//         if (init.join('') === name) {
+//             return cnt;
+//         }
+//         cnt++;
+//     }
+//     return cnt;
+// }
 
-//      answer = min(stick(right, name), stick(left, name[0]+name[:0:-1]))
-//      return answer
+function solution(name) {
+    const right = Array(name.length).fill('A');
+    const left = Array(name.length).fill('A');
+
+    const answer = Math.min(stick(right, name), stick(left, 'A' + name.split('').reverse().join('').slice(1)));
+    return answer;
+}
 
 
 //  2차 풀이 (구글)
